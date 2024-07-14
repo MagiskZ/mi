@@ -1,0 +1,26 @@
+/* 去除常见标签默认的 margin 和 padding */
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 2560px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+a:hover {
+  color: #ff6900;
+}
+

@@ -1,0 +1,66 @@
+/* 中间图片区域 */
+
+.pic{
+    max-width: 2560px;
+}
+
+.banner {
+    height: 810px;
+    overflow: hidden;    
+    position: relative;
+    justify-content: center;
+    /* background-color: pink; */
+}
+
+.banner ul {
+    display: flex;
+}
+
+/* 70.71 * 70.71 */
+.banner .prev,
+.banner .next{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 70.71px;
+    height: 70.71px;
+}
+
+.banner .prev{
+    left: 0;
+    text-align: center;
+}
+
+.banner .next{
+    right: 0;
+    text-align: center;
+}
+
+.banner a i {
+    width: 70.71px;
+    height: 70.71px;
+}
+
+.icon-jiantou_you,
+.icon-jiantou_zuo {
+    /* display: block; */
+    font-size: 50px;
+    font-family: iconfont !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: .2px;
+    /* color: #ff6900; */
+}
+.icon-jiantou_you:hover,
+.icon-jiantou_zuo:hover {
+    color: #ff6900;
+}
+
+.pic a img{
+    height: 810px;
+}
+
+.pic .blank {
+    height: 15px;
+    width: auto;
+}

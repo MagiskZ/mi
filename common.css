@@ -1,0 +1,251 @@
+/* 头部区域 */
+.header-wrapper {
+    display: flex;
+    padding: 0 15px;
+    height: 65px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    z-index: 99;
+}
+
+.container {
+    display: flex;
+    width: 1440px;
+    height: 65px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* logo */
+.logo {
+    width: 60px;
+}
+
+.logo h1 {
+    display: flex;
+    width: 34px;
+    height: 65px;
+    align-items: center;
+}
+
+.logo a {
+    display: block;
+    width: 34px;
+    height: 34px;
+    background-image: url(../favicon.ico);    
+    background-repeat: no-repeat;
+    background-size: 34px 34px;
+    font-size: 0;
+}
+
+/* 导航区域 */
+.nav ul {
+    display: flex;
+    width: 888.78px;
+    height: 65px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav ul li a {
+    display: flex;
+    height: 65px;
+    align-items: center;
+    justify-content: center;
+}
+
+.active {
+    color: #ff6900;
+}
+
+/* 登录区域 */
+.login {
+    width: 109.19px;
+}
+
+.login ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 帮助区域 */
+.help {
+    margin: 0 auto;
+    padding: 40px 0;
+    width: 1226px;
+    height: 350.469px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.help .left .blank {
+    width: 160px;
+    height: 25px;
+}
+.help .left {
+    display: flex;
+}
+
+.help .left dl{
+    width: 160px;
+}
+
+.help .left dt{
+    margin: -1px 0 26px;
+    color: #424242;
+}
+
+.help .left dd{
+    margin: 10px 0 0px;
+}
+
+.help .left dd a {
+    color: #757575;
+    font-size: 12px;
+}
+
+.help .left dd a:hover {
+    color: #ff6900;
+}
+
+.help .right {
+    float: right;
+    width: 251px;
+    height: 195.39px;
+    /* background-color: pink;     */
+    text-align: center;
+}
+
+.help .right .contact {
+    text-align: center;
+    width: 252px;
+    height: 75.8px;
+    border-left: 1px solid #e0e0e0;
+}
+.help .right .phone1 {
+    width: 251px;
+    height: 22px;
+    font-size: 22px;
+    color: #ff6900;
+}
+
+.help .right p {
+    display: block;
+    margin: 0 0 5px;
+    height: 13.8px;
+    font-size: 12px;
+    /* text-align: left; */
+    color: #616161;
+}
+
+.help .right .contact a {
+    border: 1px solid #ff6900;
+    line-height: 28px;
+    display: inline-block;
+    width: 118px;
+    height: 28px;
+    color: #ff6900;
+    /* background-color: skyblue; */
+}
+
+.icon-icon-test {
+    font-family: iconfont !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: .2px;
+    color: #ff6900;
+}
+
+.help .right  a:hover {
+    background-color: #ff6900;
+    color: #fff;
+}
+.help .right  a:hover .icon-icon-test {
+    color: #fff;
+}
+
+.help .right .phone2 {
+    margin: 25px 0 5px;
+} 
+/* 底部 */
+.footer {
+    padding: 30px 0;
+    height: 249px;
+    background-color: #fafafa;
+}
+
+.footer .container {
+    position: relative;
+    margin: 0 auto;
+    width: 1226px;
+    height: 108px;
+}
+
+.footer .container .flogo {
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    margin-right: 20px;
+    background: url(https://s02.mifile.cn/assets/static/image/logo-mi2.png) no-repeat;
+    background-size: 56px;
+    font-size: 0;
+    top: 0;
+    left: 0;
+}
+
+.footer .container .info-text {
+    height: 108px;
+    padding: 0 0 0 77px;
+}
+
+.footer .container .info-text .sites{
+    margin: 0;
+    line-height: 18px;
+}
+
+.footer .container .info-text .sites a{
+    font-size: 12px;
+    color: #757575;
+}
+
+.footer .container .info-text .sites a:hover{
+    color: #ff6900;
+}
+
+.footer .container .info-text .sites span{
+    font-size: 12px;
+    color: #757575;
+}
+
+.footer .container .info-text p{
+    font-size: 12px;
+    color: #b0b0b0;
+}
+
+.footer .container .info-text p a{
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.footer .container .info-text p a:hover{
+    color: #ff6900;
+}
+
+.info-link {
+    margin: 4px 0 15px;
+    height: 28px;
+}
+
+.footer .info-link img{
+    width: auto;
+    height: 28px;
+    margin-left: 0;
+}
+
+.footer .slogan {
+    clear: both;
+    margin: 30px auto 0;
+    width: 100%;
+    height: 19px;
+    background: url(https://cdn.cnbj1.fds.api.mi-img.com/staticsfile/global/slogan2020.png) no-repeat center 0;
+}
